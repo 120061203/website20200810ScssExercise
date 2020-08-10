@@ -5,3 +5,17 @@
 @mixin bgc($color) {
     background-color: $color;
 }
+
+/////////////  欄位數量    ,   欄位間距
+@mixin grid($cloum_number, $cloum_gutter) {
+    //總寬度 -    欄位間距  *    (欄位數量-1)      /   欄位數量
+    width: ($width - $cloum_gutter*($cloum_number - 1)) / $cloum_number;
+    margin-right: $cloum_gutter;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    //   欄位數量
+    &:nth-child(#{$cloum_number}n) {
+        margin-right: 0;
+    }
+}

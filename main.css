@@ -15,8 +15,14 @@
       -ms-flex: none;
           flex: none;
   text-align: center;
-  margin: 0 10px;
-  padding: 5px 10px;
+  width: 80px;
+  margin-right: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn:nth-child(12n) {
+  margin-right: 0;
 }
 
 .btn:hover {
@@ -25,7 +31,7 @@
 }
 
 .header, .content {
-  width: 100%;
+  width: 960px;
   max-width: 960px;
   height: 100%;
   display: -webkit-box;

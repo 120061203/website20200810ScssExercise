@@ -2,11 +2,12 @@
     @import "extend"; //不帶參數的mixin！！！！！！
     @import "variables";
     @import "reset";
-    @import "btn";
     @import "browser";
+    //以下是關於本網頁的scss
+    @import "btn";
     .header {
         // background-color: $primary-color;
-        width: 100%;
+        width: 960px;
         max-width: $max-width;
         height: 100%;
         display: flex;
@@ -19,11 +20,11 @@
         @extend .header; //繼承.header的所有屬性！！！！！！！！
         margin: 200px auto; //更改部分屬性
         @include breakpoint(pad) {
+            //RWD mixin !!!!!!!!!
             margin: 10px auto;
         }
         @include breakpoint(mobile) {
             margin: 0 auto;
             color: blue;
         }
-        ;
     }
