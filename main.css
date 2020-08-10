@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+.header, .content {
+  color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans TC';
+}
+
+.btn {
+  width: auto;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  text-align: center;
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+
+.btn:hover {
+  background-color: #848484;
+  cursor: pointer;
+}
+
+.header, .content {
+  width: 100%;
+  max-width: 960px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  background-color: #aaa;
+}
+
+.content {
+  margin: 200px auto;
+}
+/*# sourceMappingURL=main.css.map */

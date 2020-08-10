@@ -1,0 +1,7 @@
+@mixin m0auto {
+    margin: 0 auto;
+}
+
+@mixin bgc($color) {
+    background-color: $color;
+}

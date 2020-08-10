@@ -1,0 +1,20 @@
+    @import "mixin";
+    @import "extend"; //不帶參數的mixin！！！！！！
+    @import "variables";
+    @import "reset";
+    @import "btn";
+    .header {
+        // background-color: $primary-color;
+        width: 100%;
+        max-width: $max-width;
+        height: 100%;
+        display: flex;
+        @include m0auto; //載入名字叫m0auto 的mixin
+        @extend %red; //載入名字叫 red 的 extend！！！！！！！
+        @include bgc($primary-color); //載入名字叫bgc 的mixin 帶入參數￥primary-color！！！！！！
+    }
+    
+    .content {
+        @extend .header; //繼承.header的所有屬性！！！！！！！！
+        margin: 200px auto; //更改部分屬性
+    }

@@ -1,0 +1,11 @@
+.btn {
+    width: auto;
+    flex: none;
+    text-align: center;
+    margin: 0 10px;
+    padding: 5px 10px;
+    &:hover {
+        background-color: darken($primary-color, 15%);
+        cursor: pointer;
+    }
+}
