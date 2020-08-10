@@ -25,6 +25,6 @@
         }
         @include breakpoint(mobile) {
             margin: 0 auto;
-            color: blue;
+            color: mix($primary-color, #fff, 0.75);
         }
     }
