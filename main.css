@@ -38,4 +38,17 @@
 .content {
   margin: 200px auto;
 }
+
+@media only screen and (max-width: 768px) {
+  .content {
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .content {
+    margin: 0 auto;
+    color: blue;
+  }
+}
 /*# sourceMappingURL=main.css.map */

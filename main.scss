@@ -3,6 +3,7 @@
     @import "variables";
     @import "reset";
     @import "btn";
+    @import "browser";
     .header {
         // background-color: $primary-color;
         width: 100%;
@@ -17,4 +18,12 @@
     .content {
         @extend .header; //繼承.header的所有屬性！！！！！！！！
         margin: 200px auto; //更改部分屬性
+        @include breakpoint(pad) {
+            margin: 10px auto;
+        }
+        @include breakpoint(mobile) {
+            margin: 0 auto;
+            color: blue;
+        }
+        ;
     }
