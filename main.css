@@ -48,13 +48,15 @@
 @media only screen and (max-width: 768px) {
   .content {
     margin: 10px auto;
+    background-color: #000;
+    color: orange l;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .content {
     margin: 0 auto;
-    color: #fefefe;
+    background-color: #01aa01;
   }
 }
 /*# sourceMappingURL=main.css.map */

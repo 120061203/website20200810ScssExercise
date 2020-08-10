@@ -22,9 +22,11 @@
         @include breakpoint(pad) {
             //RWD mixin !!!!!!!!!
             margin: 10px auto;
+            background-color: nth($bgc, $style);
+            color: nth($text-color, $style)l;
         }
         @include breakpoint(mobile) {
             margin: 0 auto;
-            color: mix($primary-color, #fff, 0.75);
+            background-color: mix($primary-color, #0a0, 0.5);
         }
     }

@@ -1,3 +1,19 @@
 $primary-color:#aaa;
 $max-width:960px;
 $width:960px;
+$sites:coffee,
+cart,
+cloth,
+tea,
+child; //網站類型
+$text-color:red,
+orange,
+yellow,
+green,
+blue; //文字顏色
+$bgc:#fff,
+#000,
+#000,
+gray,
+#fff; //背景顏色
+$style: index($sites, cart); //選擇coffee後 = $style:1
