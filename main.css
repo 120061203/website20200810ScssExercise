@@ -1,62 +1,66 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
-.header, .content {
-  color: red;
+.header,
+.content {
+    color: red;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: 'Noto Sans TC';
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC';
 }
 
 .btn {
-  width: auto;
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  text-align: center;
-  width: 80px;
-  margin-right: 0px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+    width: auto;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    text-align: center;
+    width: 80px;
+    margin-right: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .btn:nth-child(12n) {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .btn:hover {
-  background-color: #848484;
-  cursor: pointer;
+    background-color: #848484;
+    cursor: pointer;
 }
 
-.header, .content {
-  width: 960px;
-  max-width: 960px;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 auto;
-  background-color: #aaa;
+.header,
+.content {
+    width: 960px;
+    max-width: 960px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    background-color: #aaa;
 }
 
 .content {
-  margin: 200px auto;
+    margin: 200px auto;
 }
 
 @media only screen and (max-width: 768px) {
-  .content {
-    margin: 10px auto;
-    background-color: #000;
-    color: orange l;
-  }
+    .content {
+        margin: 10px auto;
+        background-color: #000;
+        color: orange l;
+    }
 }
 
 @media only screen and (max-width: 480px) {
-  .content {
-    margin: 0 auto;
-    background-color: #01aa01;
-  }
+    .content {
+        margin: 0 auto;
+        background-color: #01aa01;
+    }
 }
+
+
 /*# sourceMappingURL=main.css.map */
